@@ -1,0 +1,198 @@
+/* General page styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #007bff;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0056b3; /* Dark blue background */
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffd700; /* Gold hover effect */
+}
+
+/* Navbar links container */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual nav items */
+.nav-item {
+  margin: 0 15px;
+}
+
+/* Nav links */
+.nav-link {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Gold hover effect */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  
+}
+
+
+/* Table styles */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+  background-color: #0056b3;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #0056b3;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #003f8f;
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #e63946;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+.btn-success {
+  background-color: #38a745;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+  background-color: #2e8540;
+  transform: scale(1.05);
+}
+
+/* Form styles */
+.form-group label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+  color: #0056b3;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 4px rgba(0, 91, 187, 0.2);
+}
+
+/* Toast notifications */
+.Toastify__toast {
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  background-color: #38a745;
+}
+
+.Toastify__toast--error {
+  background-color: #e63946;
+}

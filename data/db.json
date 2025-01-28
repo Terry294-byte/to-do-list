@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "377f",
+      "taskName": "Going to the Gym",
+      "date": "2025-01-27",
+      "status": false
+    },
+    {
+      "id": "1743",
+      "taskName": "Codding",
+      "date": "2025-01-26",
+      "status": true
+    },
+    {
+      "id": "6775",
+      "taskName": "gym",
+      "date": "2025-01-27",
+      "status": true
+    },
+    {
+      "id": "eb50",
+      "taskName": "going to the gym",
+      "date": "2025-01-27",
+      "status": true
+    },
+    {
+      "id": "1660",
+      "taskName": "preparing breakfast",
+      "date": "2025-01-21",
+      "status": true
+    },
+    {
+      "id": "9057",
+      "taskName": "go for morning run",
+      "date": "2025-01-21",
+      "status": true
+    }
+  ]
+}
