@@ -4,9 +4,9 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const TaskList = () => {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([]);//Used to manage state in functional components.tracking the data
 
-  // Fetch tasks from JSON server
+  // Fetch tasks from JSON server fetching the data
   useEffect(() => {
     axios
       .get("http://localhost:3001/tasks") // Fetch all tasks from the server
@@ -20,8 +20,8 @@ const TaskList = () => {
   const toggleStatus = (id, currentStatus) => {
     // Find the task to update
     const taskToUpdate = tasks.find((task) => task.id === id);
-    if (!taskToUpdate) return;
-
+    if (!taskToUpdate) return; // If no task is found, exit
+   
     // Create updated task object
     const updatedTask = { ...taskToUpdate, status: !currentStatus };
 
